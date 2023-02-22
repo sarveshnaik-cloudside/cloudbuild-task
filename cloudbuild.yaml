@@ -6,7 +6,7 @@ images:
   - name: "gcr.io/cloud-builders/gke-deploy"
     args:
   - run
-  - --filename=deployment.yaml
+  - --filename=https://github.com/sarveshnaik-cloudside/cloudbuild-task/blob/main/deployment.yaml
   - --image=us-west2-docker.pkg.dev/cloudside-academy/sarvesh-repo/quickstart-image:tag1
   - --location=us-west2
   - --cluster=sarvesh-privatecluster
